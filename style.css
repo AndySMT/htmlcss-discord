@@ -207,8 +207,10 @@ footer {
     border-bottom: 1px solid var(--bg-light);
 }
 
-nav ul li {
+nav ul li a{
     padding: 7px;
+    color: white;
+    text-decoration: none;
 }
 
 #lingua {
@@ -219,4 +221,6 @@ nav ul li {
 
 .social {
     font-size: 25px;
+    display: flex;
+    justify-content: space-between;
 }
