@@ -205,6 +205,7 @@ footer {
 
 .footer-top {
     border-bottom: 1px solid var(--bg-light);
+    padding: 20px 20px;
 }
 
 nav ul li a{
@@ -222,5 +223,14 @@ nav ul li a{
 .social {
     font-size: 25px;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+}
+footer ul li {
+    margin-bottom: 10px;
+}
+.grid-footer {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-rows: auto;
+    width: 100%;
 }
