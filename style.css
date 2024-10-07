@@ -136,6 +136,10 @@ div.buttons {
     color: white;
 
 }
+.btn-blue {
+    background-color: var(--bg-blue);
+    color: white;
+}
 .image {
     width: 60%;
 }
@@ -150,6 +154,14 @@ div.buttons {
 .padding {
     padding: 20px 10px;
     
+}
+#star {
+    background-image: url(img/stars.svg);
+    height: 80px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* footer */
