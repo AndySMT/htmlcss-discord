@@ -18,6 +18,7 @@
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: var(--dark);
+    font-size: 20px;
 }
 
 ul {
@@ -46,12 +47,13 @@ ul {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 
 .container-small {
     max-width: 800px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* text */
@@ -71,6 +73,9 @@ ul {
 .row-reverse {
     flex-direction: row-reverse;
 }
+.flex-wrap {
+    flex-wrap: wrap;
+}
 
 .space-between {
     justify-content: space-between;
@@ -78,6 +83,9 @@ ul {
 
 .align-items-center {
     align-items: center;
+}
+.txt-center {
+    text-align: center;
 }
 
 /* header */
@@ -96,7 +104,38 @@ header ul li a {
     justify-content: center;
     align-items: center;
 }
+h1 {
+  padding-bottom: 20px;
+  font-size: 4em;
+}
+p {
+  line-height: 1.5;
+}
+.hero-description {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+div.buttons {
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 16px;
+    border-radius: 25px;
+    background-color: white;
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.btn-dark {
+    background-color: var(--dark);
+    color: white;
+
+}
 .image {
     width: 60%;
 }
@@ -107,6 +146,10 @@ header ul li a {
 
 .content {
     width: 40%;
+}
+.padding {
+    padding: 20px 10px;
+    
 }
 
 /* footer */
